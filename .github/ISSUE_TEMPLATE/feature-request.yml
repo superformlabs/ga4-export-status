@@ -1,0 +1,22 @@
+name: Request a feature
+description: Suggest an improvement to the GA4 Export Status page.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a request, please check whether it already exists and add your use case there.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What problem would it solve for you?
+      description: Your use case helps us prioritise.
+    validations:
+      required: true

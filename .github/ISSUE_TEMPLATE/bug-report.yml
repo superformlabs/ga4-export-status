@@ -1,0 +1,47 @@
+name: Report an issue
+description: Something on the GA4 Export Status page looks wrong or does not work.
+title: "[Issue] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve the page. Please do not include personal data or credentials. For anything private, write to support@superformlabs.eu.
+  - type: textarea
+    id: what
+    attributes:
+      label: What looked wrong?
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When did you notice it? (UTC)
+      placeholder: "2026-11-19 07:30 UTC"
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the page?
+      options:
+        - Status message
+        - Overview (figures and chart)
+        - By data location
+        - Last 30 days and incidents
+        - Email alerts
+        - Connect a GA4 property
+        - Something else
+  - type: dropdown
+    id: location
+    attributes:
+      label: BigQuery data location of your GA4 export (if relevant)
+      options:
+        - Not relevant
+        - US
+        - EU
+        - Another region
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else?
+      description: Screenshots, links or other context.
