@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GA4 Export Status page
+  - name: GA4 BigQuery Export Status page
     url: https://ga4-export-status.ga4dataform.com
     about: Check the current status and subscribe to alerts.
   - name: Private question

@@ -1,5 +1,5 @@
 name: Report an issue
-description: Something on the GA4 Export Status page looks wrong or does not work.
+description: Something on the GA4 BigQuery Export Status page looks wrong or does not work.
 title: "[Issue] "
 labels: ["bug"]
 body:

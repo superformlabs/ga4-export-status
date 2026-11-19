@@ -1,5 +1,5 @@
 name: Request a feature
-description: Suggest an improvement to the GA4 Export Status page.
+description: Suggest an improvement to the GA4 BigQuery Export Status page.
 title: "[Feature] "
 labels: ["enhancement"]
 body:

@@ -1,4 +1,4 @@
-# GA4 Export Status
+# GA4 BigQuery Export Status
 
 Public home of the **[non-official GA4 BigQuery Export Status page](https://ga4-export-status.ga4dataform.com)**, run by [GA4Dataform](https://ga4dataform.com) (Superform Labs).
 
